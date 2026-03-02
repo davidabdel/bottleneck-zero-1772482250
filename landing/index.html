@@ -1,126 +1,92 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bottleneck Zero: 24-Hour AI Follow-Up Engine</title>
-    <meta
-      name="description"
-      content="Install a practical 24-hour AI follow-up system to respond faster, revive ghosted leads, and close more deals. One-time $27."
-    />
-    <style>
-      :root {
-        --bg: #0b1020;
-        --card: #121a31;
-        --text: #ecf1ff;
-        --muted: #a9b8e6;
-        --accent: #6ee7b7;
-        --accent2: #60a5fa;
-      }
-      * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        background: radial-gradient(1200px 600px at 20% -10%, #1e2d5f 0%, var(--bg) 45%) no-repeat, var(--bg);
-        color: var(--text);
-        line-height: 1.6;
-      }
-      .wrap { max-width: 920px; margin: 0 auto; padding: 48px 20px 80px; }
-      .pill {
-        display: inline-block;
-        background: rgba(110, 231, 183, .15);
-        color: var(--accent);
-        border: 1px solid rgba(110, 231, 183, .35);
-        border-radius: 999px;
-        padding: 6px 12px;
-        font-size: 13px;
-        font-weight: 600;
-      }
-      h1 { font-size: clamp(32px, 5vw, 56px); line-height: 1.08; margin: 16px 0 16px; }
-      h2 { margin-top: 42px; font-size: 28px; }
-      p { color: var(--muted); font-size: 18px; }
-      .cta-row { display: flex; gap: 14px; flex-wrap: wrap; margin: 28px 0 20px; }
-      .btn {
-        display: inline-block;
-        text-decoration: none;
-        border-radius: 12px;
-        padding: 14px 18px;
-        font-weight: 700;
-      }
-      .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #081120; }
-      .btn-secondary { border: 1px solid #314066; color: var(--text); }
-      .price { font-size: 20px; margin-top: 8px; color: #d0dbff; }
-      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 14px; margin-top: 18px; }
-      .card { background: rgba(18, 26, 49, .85); border: 1px solid #2a3557; border-radius: 14px; padding: 16px; }
-      .card h3 { margin: 0 0 8px; }
-      ul { margin: 12px 0; padding-left: 18px; }
-      li { margin: 8px 0; color: #d8e2ff; }
-      .faq-item { margin-bottom: 14px; }
-      .faq-item strong { display: block; margin-bottom: 4px; }
-      .note { color: #93a7df; font-size: 14px; }
-      footer { margin-top: 48px; border-top: 1px solid #253257; padding-top: 18px; font-size: 14px; color: #90a3d8; }
-    </style>
-  </head>
-  <body>
-    <main class="wrap">
-      <span class="pill">Instant digital download</span>
-      <h1>Bottleneck Zero: 24-Hour AI Follow-Up Engine</h1>
-      <p>
-        Stop losing warm leads to slow follow-up. Install a plug-and-play system that helps you respond in minutes,
-        revive ghosted conversations, and move more leads to close — without sounding robotic.
-      </p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bottleneck Zero — 24-Hour AI Follow-Up Engine</title>
+  <style>
+    :root { --bg:#0b1020; --card:#111831; --text:#f4f7ff; --muted:#b8c2e0; --accent:#66e3a4; --cta:#7c5cff; }
+    body { margin:0; font-family: Inter, system-ui, Arial, sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 28px 18px 60px; }
+    .card { background:var(--card); border:1px solid #212b4f; border-radius:14px; padding:22px; margin:16px 0; }
+    h1,h2 { line-height:1.2; margin:0 0 12px; }
+    h1 { font-size:clamp(28px,4vw,44px); }
+    h2 { font-size:clamp(22px,3vw,30px); }
+    p { margin:10px 0; color:var(--text); }
+    .muted { color:var(--muted); }
+    .pill { display:inline-block; background:#1d2850; color:#c9d4ff; border:1px solid #33427a; border-radius:999px; padding:6px 10px; font-size:13px; margin-bottom:12px; }
+    ul { margin:8px 0 0 18px; }
+    li { margin:8px 0; }
+    .value { color:var(--accent); font-weight:700; }
+    .price { font-size:30px; font-weight:800; }
+    .strike { text-decoration: line-through; color: #9aa8d8; }
+    .cta { display:inline-block; background:var(--cta); color:white; text-decoration:none; font-weight:700; padding:14px 20px; border-radius:12px; margin-top:14px; }
+    .center { text-align:center; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
 
-      <div class="cta-row">
-        <a id="checkoutBtn" class="btn btn-primary" href="https://checkout.uconnect.com.au/b/dRm14n74a1ducN3eD3eIw0z" target="_blank" rel="noopener">Get Bottleneck Zero — $27</a>
-        <a class="btn btn-secondary" href="#faq">See FAQs</a>
-      </div>
-      <div class="price"><strong>One-time payment:</strong> $27 USD · <strong>Refund:</strong> 7 days</div>
-      <p class="note">Secure checkout via Stripe. Instant access delivered on confirmation.</p>
+    <section class="card center">
+      <span class="pill">For Solopreneurs + Agency Owners</span>
+      <h1>Achieve Faster Sales Calls without Slow Follow-Up in 24 Hours</h1>
+      <p class="muted">Use the same AI follow-up structure to reply faster, revive ghosted leads, and move more prospects to paid calls.</p>
+    </section>
 
-      <h2>What you get</h2>
-      <div class="grid">
-        <section class="card">
-          <h3>Core Blueprint</h3>
-          <p>Exact system architecture for first-response, objections, and revival messages across the first 24 hours.</p>
-        </section>
-        <section class="card">
-          <h3>5 Ready-to-Use Scripts</h3>
-          <p>Copy/paste scripts for common lead conversations, built to keep momentum without pressure.</p>
-        </section>
-        <section class="card">
-          <h3>Ghost Revival Set</h3>
-          <p>Structured T+24h, T+48h, and T+72h sequence for reactivating stalled opportunities.</p>
-        </section>
-        <section class="card">
-          <h3>Setup Checklist</h3>
-          <p>A 45-minute implementation checklist to get your engine live this week.</p>
-        </section>
-      </div>
+    <section class="card">
+      <h2>You don’t have a lead problem. You have a speed problem.</h2>
+      <p>You get leads. Then life happens. You reply late. They go cold.</p>
+      <p>You say, “I’ll follow up tonight.” Then tomorrow looks the same.</p>
+      <p>Every delay kills trust. Every missed follow-up leaks revenue.</p>
+      <p><strong>You already paid for these leads. Why lose them now?</strong></p>
+    </section>
 
-      <h2>Who this is for</h2>
+    <section class="card">
+      <h2>Introducing the 24-Hour AI Follow-Up Engine</h2>
+      <p>This is a new mechanism for converting warm leads faster.</p>
+      <p>Not another generic template pack. Not another expensive agency retainer.</p>
+      <p>It gives you clear scripts, timing, and sequence logic so your pipeline moves every day.</p>
+    </section>
+
+    <section class="card">
+      <h2>What you get (and what it’s worth)</h2>
       <ul>
-        <li>Solopreneurs and agency owners with leads waiting too long for a quality reply</li>
-        <li>Teams that want consistency without hiring extra SDR headcount</li>
-        <li>Operators who want more closed revenue from existing inbound demand</li>
+        <li><strong>Speed-to-Lead Response Framework</strong> — Send the right first reply in minutes, not hours. <span class="value">($97 value)</span></li>
+        <li><strong>Objection Handling Scripts</strong> — Handle “too expensive” and “let me think” with confidence. <span class="value">($147 value)</span></li>
+        <li><strong>24-Hour Ghost Revival Sequence</strong> — Reopen stalled conversations with value-first follow-up. <span class="value">($127 value)</span></li>
+        <li><strong>Setup Checklist</strong> — Launch your system quickly with zero guesswork. <span class="value">($67 value)</span></li>
       </ul>
+      <p><strong>Total value: <span class="strike">$438</span></strong></p>
+      <p>Today: <span class="price">$27</span></p>
+    </section>
 
-      <h2 id="faq">FAQ</h2>
-      <div class="faq-item">
-        <strong>Is this beginner friendly?</strong>
-        <span>Yes. If you can copy templates into your CRM/DM workflow, you can deploy this.</span>
-      </div>
-      <div class="faq-item">
-        <strong>Do I need special software?</strong>
-        <span>No required stack. Works with any CRM, spreadsheet, or inbox process.</span>
-      </div>
-      <div class="faq-item">
-        <strong>What if it isn’t a fit?</strong>
-        <span>You’re covered by a 7-day refund policy from purchase date.</span>
-      </div>
+    <section class="card">
+      <h2>Proof and credibility</h2>
+      <p>This framework is built from real automation workflows used in live operations.</p>
+      <p>Core principle: speed + relevance outperforms volume + delay.</p>
+      <p>Operators applying structured first-response systems consistently recover more opportunities from the same lead flow.</p>
+    </section>
 
-      <footer>
-        © Bottleneck Zero · No unrealistic income claims. Results depend on offer, lead quality, and execution consistency.
-      </footer>
-    </main>
-  </body>
+    <section class="card">
+      <h2>Let’s kill the common objections</h2>
+      <p><strong>“I don’t have time.”</strong> This saves time because you stop rewriting replies from scratch.</p>
+      <p><strong>“I can’t spend more right now.”</strong> One recovered lead can pay for this multiple times.</p>
+      <p><strong>“I’ve tried templates before.”</strong> This is a complete sequence system, not random snippets.</p>
+      <p><strong>“Will this work in my niche?”</strong> Yes. The mechanics are universal: fast response, clear value, strong next step.</p>
+    </section>
+
+    <section class="card">
+      <h2>7-Day Action Guarantee</h2>
+      <p>Implement the system. If it’s not useful for your business, request a refund within 7 days.</p>
+      <p>No friction.</p>
+    </section>
+
+    <section class="card center">
+      <h2>Start now and stop leaking leads this week.</h2>
+      <p class="muted">Click below for instant access to Bottleneck Zero.</p>
+      <a class="cta" href="https://checkout.uconnect.com.au/b/dRm14n74a1ducN3eD3eIw0z" id="checkout">Get Bottleneck Zero Now</a>
+    </section>
+
+  </div>
+</body>
 </html>
