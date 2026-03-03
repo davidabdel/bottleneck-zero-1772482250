@@ -1,6 +1,4 @@
 {
-  "stripe_product_id": "prod_U4cy880FQDZGqe",
-  "stripe_price_id": "price_1T6TiWGv9Wq0pmLHVPuPOvrU",
-  "stripe_payment_url": "https://checkout.uconnect.com.au/b/dRm14n74a1ducN3eD3eIw0z",
-  "vercel_url": ""
+  "stripe_payment_url": "https://checkout.uconnect.com.au/b/00waEX9ci5tK8wNgLbeIw0B",
+  "thank_you_url": "https://openclaw.uconnect.com.au/thank-you.html"
 }

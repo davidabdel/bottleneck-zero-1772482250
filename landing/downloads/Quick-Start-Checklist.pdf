@@ -1,0 +1,99 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 1443 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 742 Tm
+14 TL
+(Quick-Start-Checklist) Tj
+T*
+() Tj
+T*
+(Setup Checklist) Tj
+T*
+() Tj
+T*
+(# Setup Checklist \(45-Minute Deployment\)) Tj
+T*
+() Tj
+T*
+(## Phase 1 — Foundations \(10 min\)) Tj
+T*
+(- [ ] Define lead channels \(IG DMs, X DMs, website form, email\)) Tj
+T*
+(- [ ] Create a single lead tracking sheet/CRM view) Tj
+T*
+(- [ ] Add columns: lead source, first-response timestamp, status, next touch date) Tj
+T*
+() Tj
+T*
+(## Phase 2 — Script Deployment \(15 min\)) Tj
+T*
+(- [ ] Paste Script 1–5 into your response tool/snippets) Tj
+T*
+(- [ ] Customize bracket fields for your niche) Tj
+T*
+(- [ ] Add ghost revival templates with scheduled reminders) Tj
+T*
+() Tj
+T*
+(## Phase 3 — SLA and Automation \(10 min\)) Tj
+T*
+(- [ ] Set first-response SLA target to <=10 minutes) Tj
+T*
+(- [ ] Create reminder trigger for untouched leads at +2h) Tj
+T*
+(- [ ] Create ghost revival trigger at +24h) Tj
+T*
+() Tj
+T*
+(## Phase 4 — QA + Go Live \(10 min\)) Tj
+T*
+(- [ ] Test with 2 internal dummy leads) Tj
+T*
+(- [ ] Verify link placeholders and CTA text) Tj
+T*
+(- [ ] Confirm refund policy copy is present on landing + checkout) Tj
+T*
+(- [ ] Record baseline metrics before launch) Tj
+T*
+() Tj
+T*
+(## Weekly QA) Tj
+T*
+(- [ ] Audit 10 recent lead threads for script adherence) Tj
+T*
+(- [ ] Track objection categories and update scripts monthly) Tj
+T*
+(- [ ] Keep claims compliance-safe \(no guaranteed results\)) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Type /Page /Parent 4 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+4 0 obj
+<< /Type /Pages /Kids [ 3 0 R ] /Count 1 >>
+endobj
+5 0 obj
+<< /Type /Catalog /Pages 4 0 R >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000001574 00000 n 
+0000001700 00000 n 
+0000001759 00000 n 
+trailer
+<< /Size 6 /Root 5 0 R >>
+startxref
+1808
+%%EOF

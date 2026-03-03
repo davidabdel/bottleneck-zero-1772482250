@@ -1,0 +1,233 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Length 1897 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 742 Tm
+14 TL
+(Bottleneck-Zero-Blueprint) Tj
+T*
+() Tj
+T*
+(Core Blueprint) Tj
+T*
+() Tj
+T*
+(# Core Blueprint — Bottleneck Zero) Tj
+T*
+() Tj
+T*
+(## Promise) Tj
+T*
+(Install a 24-hour follow-up engine that reduces response lag, improves lead quality) Tj
+T*
+(conversations, and increases booked calls/sales from existing inbound leads.) Tj
+T*
+() Tj
+T*
+(## Outcome Targets \(first 14 days\)) Tj
+T*
+(- Median first-response time: under 10 minutes) Tj
+T*
+(- % of leads receiving 3+ touches in 72 hours: 80%+) Tj
+T*
+(- Ghosted lead reactivation reply rate: 10–20% baseline target) Tj
+T*
+() Tj
+T*
+(## System Architecture) Tj
+T*
+() Tj
+T*
+(### Stage 1: First Touch \(0–10 minutes\)) Tj
+T*
+(Goal: acknowledge context and secure micro-commitment.) Tj
+T*
+() Tj
+T*
+(Message structure:) Tj
+T*
+(1. Personal context mirror) Tj
+T*
+(2. Relevant one-liner value anchor) Tj
+T*
+(3. Low-friction question) Tj
+T*
+() Tj
+T*
+(### Stage 2: Qualification + Objection Handling \(10 minutes–24 hours\)) Tj
+T*
+(Goal: progress conversation with clarity.) Tj
+T*
+() Tj
+T*
+(Rules:) Tj
+T*
+(- Never send walls of text) Tj
+T*
+(- Ask one question at a time) Tj
+T*
+(- Objections are signals of uncertainty; answer with clarity + proof) Tj
+T*
+() Tj
+T*
+(### Stage 3: Ghost Revival \(24–72 hours\)) Tj
+T*
+(Goal: re-open with value, not pressure.) Tj
+T*
+() Tj
+T*
+(Cadence:) Tj
+T*
+(- T+24h: fresh insight) Tj
+T*
+(- T+48h: mini proof/case) Tj
+T*
+(- T+72h: simple forked close question) Tj
+T*
+() Tj
+T*
+(## Implementation Workflow) Tj
+T*
+() Tj
+T*
+(1. Connect lead source \(DM form, website form, calendar no-show list\).) Tj
+T*
+(2. Tag every new lead with `new_inbound` + timestamp.) Tj
+T*
+(3. Trigger Script 1 immediately.) Tj
+T*
+(4. If no reply after 2 hours, send Script 2.) Tj
+T*
+(5. If reply includes objection, switch to Script 3 or 4.) Tj
+T*
+(6. If no activity by day 1, trigger ghost revival sequence.) Tj
+ET
+endstream
+endobj
+3 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 2 0 R >>
+endobj
+4 0 obj
+<< /Length 1593 >>
+stream
+BT
+/F1 12 Tf
+1 0 0 1 50 742 Tm
+14 TL
+(7. Log outcomes weekly and iterate top 2 underperforming lines.) Tj
+T*
+() Tj
+T*
+(## Weekly Review Template) Tj
+T*
+(- Leads captured:) Tj
+T*
+(- Avg first-response time:) Tj
+T*
+(- Replies received:) Tj
+T*
+(- Calls booked:) Tj
+T*
+(- Sales closed:) Tj
+T*
+(- Top objection category:) Tj
+T*
+(- Script revisions planned:) Tj
+T*
+() Tj
+T*
+(## Guardrails) Tj
+T*
+(- Do not fabricate proof/case studies.) Tj
+T*
+(- Do not guarantee revenue outcomes.) Tj
+T*
+(- Keep tone consultative and specific.) Tj
+T*
+() Tj
+T*
+(Readme) Tj
+T*
+() Tj
+T*
+(# Bottleneck Zero Product Package \(v1\)) Tj
+T*
+() Tj
+T*
+(This folder is the customer delivery payload for **Bottleneck Zero: 24-Hour AI Follow-Up) Tj
+T*
+(Engine**.) Tj
+T*
+() Tj
+T*
+(## Contents) Tj
+T*
+() Tj
+T*
+(1. `core_blueprint.md` — full implementation guide) Tj
+T*
+(2. `scripts_library.md` — 5 ready-to-use follow-up scripts) Tj
+T*
+(3. `ghost_revival.md` — T+24h/T+48h/T+72h revival sequence) Tj
+T*
+(4. `setup_checklist.md` — launch checklist and QA gates) Tj
+T*
+(5. `delivery_confirmation_copy.md` — post-purchase success message/email copy) Tj
+T*
+() Tj
+T*
+(## Delivery options) Tj
+T*
+() Tj
+T*
+(- Zip this folder and attach to checkout confirmation email) Tj
+T*
+(- Host as protected docs and include links in confirmation email) Tj
+T*
+(- Send via automated post-purchase webhook) Tj
+T*
+() Tj
+T*
+(## Compliance guardrails) Tj
+T*
+() Tj
+T*
+(- Avoid earnings guarantees in public claims) Tj
+T*
+(- Position as process acceleration and lead handling system) Tj
+T*
+(- Keep refund policy visible: **7 days**) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 6 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Type /Pages /Kids [ 3 0 R 5 0 R ] /Count 2 >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 6 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000002028 00000 n 
+0000002154 00000 n 
+0000003799 00000 n 
+0000003925 00000 n 
+0000003990 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+4039
+%%EOF
