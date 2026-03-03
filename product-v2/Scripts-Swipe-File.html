@@ -1,6 +1,19 @@
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><style>
 body{font-family:Inter,Arial,sans-serif;color:#111827;margin:0;background:#f8fafc}.wrap{max-width:920px;margin:auto;padding:24px}.card{background:white;border:1px solid #e5e7eb;border-radius:12px;padding:16px;margin:12px 0}
 h1{font-size:32px;margin:0 0 10px} h2{font-size:22px;margin:0 0 8px} code{display:block;background:#0f172a;color:#e2e8f0;padding:12px;border-radius:10px;white-space:pre-wrap}
+
+@page { size: A4; margin: 14mm; }
+@media print {
+  body { background: #ffffff !important; }
+  .wrap { max-width: none !important; padding: 0 !important; }
+  .card, .hero { break-inside: avoid; page-break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
+  ul, p, code, img { break-inside: avoid; page-break-inside: avoid; }
+  img { max-height: 220mm; object-fit: contain; }
+  .grid { display: block !important; }
+  .grid > .card { margin-bottom: 10mm; }
+}
+
 </style></head><body><div class="wrap"><h1>Scripts Swipe File</h1><img src="../landing/downloads/assets/guide-scripts.jpg" alt="Guide illustration" style="width:100%;border-radius:12px;margin:10px 0 14px;display:block;border:1px solid #e5e7eb"/><div class="card"><h2>1) First Response Script</h2><code>Hey {Name} — saw your message about {Pain}.
 Quick win: {1 line insight}.
 Want me to send the 3-step plan I’d use in your case?</code></div>

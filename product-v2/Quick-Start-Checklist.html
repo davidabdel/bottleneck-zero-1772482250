@@ -3,6 +3,19 @@ body{font-family:Inter,Arial,sans-serif;color:#0f172a;margin:0;background:#f8faf
 .card{background:white;border:1px solid #e2e8f0;border-radius:14px;padding:18px;margin:14px 0} h1{font-size:34px;margin:0 0 6px} h2{font-size:22px;margin:0 0 10px}
 .badge{display:inline-block;background:#e0e7ff;color:#3730a3;padding:6px 10px;border-radius:999px;font-size:12px} ul{margin:8px 0 0 20px} li{margin:6px 0}
 .step{font-weight:700;color:#4338ca}
+
+@page { size: A4; margin: 14mm; }
+@media print {
+  body { background: #ffffff !important; }
+  .wrap { max-width: none !important; padding: 0 !important; }
+  .card, .hero { break-inside: avoid; page-break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
+  ul, p, code, img { break-inside: avoid; page-break-inside: avoid; }
+  img { max-height: 220mm; object-fit: contain; }
+  .grid { display: block !important; }
+  .grid > .card { margin-bottom: 10mm; }
+}
+
 </style></head><body><div class="wrap">
 <div class="card"><span class="badge">Bottleneck Zero · Quick Start</span><h1>Get Your 24-Hour AI Follow-Up Engine Live in 60 Minutes</h1><img src="../landing/downloads/assets/guide-quickstart.jpg" alt="Guide illustration" style="width:100%;border-radius:12px;margin:10px 0 14px;display:block;border:1px solid #e5e7eb"/><p>Built for a 15-year-old reading level. No fluff. Just steps.</p></div>
 <div class="card"><h2>What this product is (and is not)</h2><ul><li><b>Is:</b> A practical system to follow up with leads faster using OpenClaw automations + scripts.</li><li><b>Is not:</b> “Build your own OpenClaw from scratch.”</li><li><b>Goal:</b> Stop losing leads between first message and booked call.</li></ul></div>

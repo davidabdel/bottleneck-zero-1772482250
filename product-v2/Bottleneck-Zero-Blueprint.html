@@ -3,6 +3,19 @@ body{font-family:Inter,Arial,sans-serif;color:#0f172a;margin:0;background:#f1f5f
 .hero{background:linear-gradient(135deg,#111827,#312e81);color:white;border-radius:16px;padding:24px}.card{background:white;border:1px solid #e2e8f0;border-radius:14px;padding:18px;margin:14px 0}
 h1{font-size:34px;margin:0 0 8px} h2{font-size:24px;margin:0 0 8px} p{line-height:1.55} .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 @media(max-width:800px){.grid{grid-template-columns:1fr}}
+
+@page { size: A4; margin: 14mm; }
+@media print {
+  body { background: #ffffff !important; }
+  .wrap { max-width: none !important; padding: 0 !important; }
+  .card, .hero { break-inside: avoid; page-break-inside: avoid; }
+  h1, h2, h3 { break-after: avoid; page-break-after: avoid; }
+  ul, p, code, img { break-inside: avoid; page-break-inside: avoid; }
+  img { max-height: 220mm; object-fit: contain; }
+  .grid { display: block !important; }
+  .grid > .card { margin-bottom: 10mm; }
+}
+
 </style></head><body><div class="wrap"><div class="hero"><h1>Bottleneck Zero Blueprint</h1><img src="../landing/downloads/assets/guide-blueprint.jpg" alt="Guide illustration" style="width:100%;border-radius:12px;margin:10px 0 14px;display:block;border:1px solid #e5e7eb"/><p>The exact system to convert more existing leads without ad spend increase.</p></div>
 <div class="card"><h2>Core Mechanism</h2><p>Most businesses leak leads in the first 30 minutes after inbound. We fix that with <b>speed + relevance + one clear next step</b>.</p></div>
 <div class="grid"><div class="card"><h2>Pillar 1: Speed-to-Lead</h2><p>Reply in under 5 minutes with context and one question.</p><ul><li>Bad: long pitch</li><li>Good: short personalized opener</li></ul></div><div class="card"><h2>Pillar 2: Objection Clarity</h2><p>“Too expensive” usually means “I’m not sure this will work.”</p><ul><li>Use outcome + timeframe + proof</li><li>Ask for next step</li></ul></div></div>
