@@ -1,190 +1,40 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bottleneck Zero — 24-Hour AI Follow-Up Engine</title>
-  <style>
-    :root{
-      --bg:#f5f7fb; --text:#0f172a; --muted:#475569; --white:#ffffff; --dark:#0b1220;
-      --primary:#4f46e5; --primary2:#7c3aed; --ok:#10b981; --border:#e2e8f0;
-      --shadow:0 12px 30px rgba(15,23,42,.08);
-    }
-    *{box-sizing:border-box}
-    body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}
-    .wrap{max-width:1120px;margin:0 auto;padding:24px 16px 64px}
-    .section{padding:56px 0;border-bottom:1px solid #e9eef6}
-    .hero{background:linear-gradient(135deg,#0b1220,#1f2a44);color:#fff;border-radius:20px;padding:44px;box-shadow:var(--shadow)}
-    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.12);font-size:12px;letter-spacing:.02em}
-    h1{font-size:clamp(30px,4.6vw,54px);line-height:1.08;margin:14px 0 14px}
-    h2{font-size:clamp(24px,3vw,36px);line-height:1.14;margin:0 0 14px}
-    h3{font-size:18px;margin:0 0 8px}
-    p{margin:10px 0;max-width:70ch}
-    .muted{color:var(--muted)}
-    .hero .muted{color:#dbe3ff}
-    .grid-2{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
-    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-    .card{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
-    .card-dark{background:var(--dark);color:#fff;border-color:#202b44}
-    .kicker{font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#64748b}
-    .list{padding-left:18px}
-    .list li{margin:8px 0}
-    .value{font-weight:800;color:#0f766e}
-    .total{font-size:18px}
-    .price{font-size:38px;font-weight:900;letter-spacing:-.02em}
-    .strike{text-decoration:line-through;color:#64748b}
-    .icons p{margin:10px 0}
-    .proof{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-    .proof .card h3{font-size:28px;margin:0}
-    .cta-wrap{background:linear-gradient(135deg,#111827,#312e81);color:#fff;border-radius:18px;padding:34px;text-align:center;box-shadow:var(--shadow)}
-    .btn{display:inline-block;margin-top:14px;background:linear-gradient(135deg,var(--primary),var(--primary2));color:#fff;text-decoration:none;padding:15px 24px;border-radius:14px;font-weight:800;box-shadow:0 10px 20px rgba(79,70,229,.35)}
-    .micro{font-size:13px;opacity:.9;margin-top:8px}
-    .layout-note{font-size:12px;color:#64748b;margin:0 0 10px;font-weight:700;letter-spacing:.03em;text-transform:uppercase}
-    .visual-note{font-size:13px;color:#334155;background:#f8fafc;border:1px dashed #cbd5e1;padding:10px 12px;border-radius:10px;margin-top:10px}
-    .alt{background:#eef2ff;border-top:1px solid #dbe4ff;border-bottom:1px solid #dbe4ff}
-    @media (max-width:900px){.grid-2,.grid-3,.proof{grid-template-columns:1fr}.hero{padding:28px}}
-  </style>
-</head>
-<body>
-  <div class="wrap">
-
-    <section class="section">
-      <div class="hero">
-        <p class="layout-note">[Layout: 2-column — image right, text left]</p>
-        <div class="grid-2">
-          <div>
-            <span class="pill">For Solopreneurs + Agency Owners</span>
-            <h1>Achieve Faster Sales Calls without Slow Follow-Up in 24 Hours</h1>
-            <p class="muted">Bottleneck Zero gives you a simple AI follow-up engine to reply faster, revive ghosted leads, and move more prospects to paid calls.</p>
-            <a class="btn" href="https://checkout.uconnect.com.au/b/dRm14n74a1ducN3eD3eIw0z">Get Bottleneck Zero Now</a>
-            <p class="micro">[Primary CTA Button: Large, rounded, high-contrast gradient, subtle shadow] • Instant access • 7-day guarantee</p>
-          </div>
-          <div class="card card-dark">
-            <img src="assets/hero.jpg" alt="Confident agency owner reviewing booked calls" style="width:100%;border-radius:12px;display:block"/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt">
-      <p class="layout-note">[Layout: 2-column — image left, text right]</p>
-      <div class="grid-2">
-        <div class="card">
-          <img src="assets/pain.jpg" alt="Unread lead messages and follow-up delays" style="width:100%;border-radius:12px;display:block"/>
-        </div>
-        <div>
-          <h2>Your funnel isn’t broken. Your follow-up speed is.</h2>
-          <p>You generate leads. Then replies get delayed.</p>
-          <p>Momentum dies. Trust drops. Deals disappear.</p>
-          <p>And you keep paying for traffic that never converts.</p>
-          <p><strong>That leak compounds every single week.</strong></p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <p class="layout-note">[Layout: 2-column — image right, text left]</p>
-      <div class="grid-2">
-        <div>
-          <h2>The new opportunity: a 24-hour AI response engine</h2>
-          <p>This is a new mechanism built for speed and relevance.</p>
-          <p>Not generic templates. Not expensive retainers.</p>
-          <p>Just clear scripts, timing, and response logic that keeps leads moving.</p>
-        </div>
-        <div class="card">
-          <img src="assets/mechanism.jpg" alt="Before and after AI follow-up workflow" style="width:100%;border-radius:12px;display:block"/>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt">
-      <p class="layout-note">[Layout: 3-column feature grid + card-style value stack]</p>
-      <h2>Value stack (Hormozi style)</h2>
-      <div class="grid-3 icons">
-        <div class="card">
-          <h3>Speed-to-Lead Framework</h3>
-          <p>[Icon style: minimal outline] [Icon: lightning bolt]</p>
-          <p>Send the right first message in minutes.</p>
-          <p class="value">$97 value</p>
-        </div>
-        <div class="card">
-          <h3>Objection Scripts</h3>
-          <p>[Icon style: minimal outline] [Icon: shield check]</p>
-          <p>Handle “too expensive” and “let me think.”</p>
-          <p class="value">$147 value</p>
-        </div>
-        <div class="card">
-          <h3>Ghost Revival Sequence</h3>
-          <p>[Icon style: minimal outline] [Icon: refresh arrows]</p>
-          <p>Reopen stalled leads with value-first follow-up.</p>
-          <p class="value">$127 value</p>
-        </div>
-      </div>
-      <div class="card" style="margin-top:14px">
-        <h3>Setup Checklist</h3>
-        <p>[Icon style: minimal outline] [Icon: checklist]</p>
-        <p>Launch fast without guesswork.</p>
-        <p class="value">$67 value</p>
-        <p class="total"><strong>Total value:</strong> <span class="strike">$438</span> • <strong>Today:</strong> <span class="price">$27</span></p>
-      </div>
-    </section>
-
-    <section class="section">
-      <p class="layout-note">[Layout: centered authority statement + 3 proof cards]</p>
-      <div class="center" style="text-align:center;margin-bottom:16px">
-        <h2>Proof and credibility</h2>
-        <p class="muted" style="margin:0 auto">Built from real-world automation workflows where speed + relevance consistently outperforms delay + volume.</p>
-      </div>
-      <div class="proof">
-        <div class="card"><h3>5 min</h3><p>Target first-response window for hot leads.</p></div>
-        <div class="card"><h3>24 hr</h3><p>Structured ghost-revival sequence included.</p></div>
-        <div class="card"><h3>4 Assets</h3><p>Core modules designed for immediate implementation.</p></div>
-      </div>
-      <div class="card" style="margin-top:14px"><img src="assets/proof.jpg" alt="Team dashboard with response SLA and lead recovery" style="width:100%;border-radius:12px;display:block"/></div>
-    </section>
-
-    <section class="section alt">
-      <p class="layout-note">[Layout: 2-column objection grid]</p>
-      <h2>Objection crushing</h2>
-      <div class="grid-2">
-        <div class="card">
-          <h3>“I don’t have time.”</h3>
-          <p>That’s exactly why this exists. It removes rewrite fatigue and decision drag.</p>
-        </div>
-        <div class="card">
-          <h3>“I can’t spend more.”</h3>
-          <p>One recovered lead can pay for this many times over.</p>
-        </div>
-        <div class="card">
-          <h3>“I tried templates before.”</h3>
-          <p>This is sequence logic + timing, not random copy snippets.</p>
-        </div>
-        <div class="card">
-          <h3>“Will it work for me?”</h3>
-          <p>If you have leads and follow-up delays, yes. The mechanics are universal.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <p class="layout-note">[Layout: contrast guarantee band]</p>
-      <div class="card card-dark">
-        <h2>7-Day Action Guarantee</h2>
-        <p>Implement the framework. If it’s not useful, request a refund within 7 days.</p>
-        <p>Simple. No friction.</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <p class="layout-note">[Layout: centered contrast CTA section]</p>
-      <div class="cta-wrap">
-        <h2>Stop leaking leads this week.</h2>
-        <p>Get Bottleneck Zero now and activate your 24-hour follow-up engine.</p>
-        <a class="btn" href="https://checkout.uconnect.com.au/b/dRm14n74a1ducN3eD3eIw0z">Get Bottleneck Zero for $27</a>
-        <p class="micro">Instant delivery • Designed for fast implementation • 7-day guarantee</p>
-      </div>
-    </section>
-
-  </div>
-</body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Bottleneck Zero — 24-Hour AI Follow-Up Engine</title><style>
+ :root{
+ --bg:#f5f7fb; --text:#0f172a; --muted:#475569; --white:#ffffff; --dark:#0b1220;
+ --primary:#4f46e5; --primary2:#7c3aed; --ok:#10b981; --border:#e2e8f0;
+ --shadow:0 12px 30px rgba(15,23,42,.08);
+ }
+ *{box-sizing:border-box}
+ body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.55}
+ .wrap{max-width:1120px;margin:0 auto;padding:24px 16px 64px}
+ .section{padding:56px 0;border-bottom:1px solid #e9eef6}
+ .hero{background:linear-gradient(135deg,#0b1220,#1f2a44);color:#fff;border-radius:20px;padding:44px;box-shadow:var(--shadow)}
+ .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.12);font-size:12px;letter-spacing:.02em}
+ h1{font-size:clamp(30px,4.6vw,54px);line-height:1.08;margin:14px 0 14px}
+ h2{font-size:clamp(24px,3vw,36px);line-height:1.14;margin:0 0 14px}
+ h3{font-size:18px;margin:0 0 8px}
+ p{margin:10px 0;max-width:70ch}
+ .muted{color:var(--muted)}
+ .hero .muted{color:#dbe3ff}
+ .grid-2{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center}
+ .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+ .card{background:var(--white);border:1px solid var(--border);border-radius:16px;padding:20px;box-shadow:var(--shadow)}
+ .card-dark{background:var(--dark);color:#fff;border-color:#202b44}
+ .kicker{font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#64748b}
+ .list{padding-left:18px}
+ .list li{margin:8px 0}
+ .value{font-weight:800;color:#0f766e}
+ .total{font-size:18px}
+ .price{font-size:38px;font-weight:900;letter-spacing:-.02em}
+ .strike{text-decoration:line-through;color:#64748b}
+ .icons p{margin:10px 0}
+ .proof{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+ .proof .card h3{font-size:28px;margin:0}
+ .cta-wrap{background:linear-gradient(135deg,#111827,#312e81);color:#fff;border-radius:18px;padding:34px;text-align:center;box-shadow:var(--shadow)}
+ .btn{display:inline-block;margin-top:14px;background:linear-gradient(135deg,var(--primary),var(--primary2));color:#fff;text-decoration:none;padding:15px 24px;border-radius:14px;font-weight:800;box-shadow:0 10px 20px rgba(79,70,229,.35)}
+ .micro{font-size:13px;opacity:.9;margin-top:8px}
+ .layout-note{font-size:12px;color:#64748b;margin:0 0 10px;font-weight:700;letter-spacing:.03em;text-transform:uppercase}
+ .visual-note{font-size:13px;color:#334155;background:#f8fafc;border:1px dashed #cbd5e1;padding:10px 12px;border-radius:10px;margin-top:10px}
+ .alt{background:#eef2ff;border-top:1px solid #dbe4ff;border-bottom:1px solid #dbe4ff}
+ @media (max-width:900px){.grid-2,.grid-3,.proof{grid-template-columns:1fr}.hero{padding:28px}}
+ </style></head><body><div class="wrap"><section class="section"><div class="hero"><p class="layout-note"></p><div class="grid-2"><div><span class="pill">For Solopreneurs + Agency Owners</span><h1>Achieve Faster Sales Calls without Slow Follow-Up in 24 Hours</h1><p class="muted">Bottleneck Zero gives you a simple AI follow-up engine to reply faster, revive ghosted leads, and move more prospects to paid calls.</p><a class="btn" href="https://checkout.uconnect.com.au/b/dRm14n74a1ducN3eD3eIw0z">Get Bottleneck Zero Now</a><p class="micro"> • Instant access • 7-day guarantee</p></div><div class="card card-dark"><img src="assets/hero.jpg" alt="Confident agency owner reviewing booked calls" style="width:100%;border-radius:12px;display:block"/></div></div></div></section><section class="section alt"><p class="layout-note"></p><div class="grid-2"><div class="card"><img src="assets/pain.jpg" alt="Unread lead messages and follow-up delays" style="width:100%;border-radius:12px;display:block"/></div><div><h2>Your funnel isn’t broken. Your follow-up speed is.</h2><p>You generate leads. Then replies get delayed.</p><p>Momentum dies. Trust drops. Deals disappear.</p><p>And you keep paying for traffic that never converts.</p><p><strong>That leak compounds every single week.</strong></p></div></div></section><section class="section"><p class="layout-note"></p><div class="grid-2"><div><h2>The new opportunity: a 24-hour AI response engine</h2><p>This is a new mechanism built for speed and relevance.</p><p>Not generic templates. Not expensive retainers.</p><p>Just clear scripts, timing, and response logic that keeps leads moving.</p></div><div class="card"><img src="assets/mechanism.jpg" alt="Before and after AI follow-up workflow" style="width:100%;border-radius:12px;display:block"/></div></div></section><section class="section alt"><p class="layout-note"></p><h2>Value stack (Hormozi style)</h2><div class="grid-3 icons"><div class="card"><h3>Speed-to-Lead Framework</h3><p></p><p>Send the right first message in minutes.</p><p class="value">$97 value</p></div><div class="card"><h3>Objection Scripts</h3><p></p><p>Handle “too expensive” and “let me think.”</p><p class="value">$147 value</p></div><div class="card"><h3>Ghost Revival Sequence</h3><p></p><p>Reopen stalled leads with value-first follow-up.</p><p class="value">$127 value</p></div></div><div class="card" style="margin-top:14px"><h3>Setup Checklist</h3><p></p><p>Launch fast without guesswork.</p><p class="value">$67 value</p><p class="total"><strong>Total value:</strong><span class="strike">$438</span> • <strong>Today:</strong><span class="price">$27</span></p></div></section><section class="section"><p class="layout-note"></p><div class="center" style="text-align:center;margin-bottom:16px"><h2>Proof and credibility</h2><p class="muted" style="margin:0 auto">Built from real-world automation workflows where speed + relevance consistently outperforms delay + volume.</p></div><div class="proof"><div class="card"><h3>5 min</h3><p>Target first-response window for hot leads.</p></div><div class="card"><h3>24 hr</h3><p>Structured ghost-revival sequence included.</p></div><div class="card"><h3>4 Assets</h3><p>Core modules designed for immediate implementation.</p></div></div><div class="card" style="margin-top:14px"><img src="assets/proof.jpg" alt="Team dashboard with response SLA and lead recovery" style="width:100%;border-radius:12px;display:block"/></div></section><section class="section alt"><p class="layout-note"></p><h2>Objection crushing</h2><div class="grid-2"><div class="card"><h3>“I don’t have time.”</h3><p>That’s exactly why this exists. It removes rewrite fatigue and decision drag.</p></div><div class="card"><h3>“I can’t spend more.”</h3><p>One recovered lead can pay for this many times over.</p></div><div class="card"><h3>“I tried templates before.”</h3><p>This is sequence logic + timing, not random copy snippets.</p></div><div class="card"><h3>“Will it work for me?”</h3><p>If you have leads and follow-up delays, yes. The mechanics are universal.</p></div></div></section><section class="section"><p class="layout-note"></p><div class="card card-dark"><h2>7-Day Action Guarantee</h2><p>Implement the framework. If it’s not useful, request a refund within 7 days.</p><p>Simple. No friction.</p></div></section><section class="section"><p class="layout-note"></p><div class="cta-wrap"><h2>Stop leaking leads this week.</h2><p>Get Bottleneck Zero now and activate your 24-hour follow-up engine.</p><a class="btn" href="https://checkout.uconnect.com.au/b/dRm14n74a1ducN3eD3eIw0z">Get Bottleneck Zero for $27</a><p class="micro">Instant delivery • Designed for fast implementation • 7-day guarantee</p></div></section></div></body></html>
